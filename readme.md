@@ -1,5 +1,9 @@
 # vaZip -- unzip with a specific code page
 
+⚠️ It is a pre-release version.
+
+🛑 Please back up your files before trying it.
+
 ## Install
 
 0. Python 3
