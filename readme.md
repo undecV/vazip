@@ -1,8 +1,11 @@
-# vaZip -- unzip with a specific code page
+# vaZip
 
-⚠️ It is a pre-release version.
+Extract *Mojibake* ZIP file correctly.
 
-🛑 Please back up your files before trying it.
+> ⚠️ It is a **pre-release** version.<br />
+> 🛑 Please back up your files before trying it.
+
+Readme Languages: [English](readme.md), [正體中文](readme_zh.md)
 
 ## Install
 
@@ -41,7 +44,7 @@ ex.1 list with codec ShiftJIS
 vazip "archived_files.zip" -c shiftjis
 ```
 
-ex.2 extract to cwd
+ex.2 extract to cwd (current working directory)
 
 ```cmd
 vazip "archived_files.zip" -c shiftjis -e .
