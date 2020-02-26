@@ -7,6 +7,12 @@ Extract *Mojibake* ZIP file correctly.
 
 Readme Languages: [English](readme.md), [正體中文](readme_zh.md)
 
+## What could be the Code Page \ coding \ encoding problem?
+
+- Filenames in the archive are mojibake;
+- Directories expansion incorrectly (because `\` and `/` might be eaten by wrong decoding);
+- Extract password has non-CP437 characters (only English and some symbols, etc.), provide the correct password but prompt the password is wrong.
+
 ## Install
 
 0. Python 3
